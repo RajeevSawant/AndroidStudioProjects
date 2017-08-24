@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:text="@string/start"/>
+
+    <!--<TextView-->
+    <!--android:text="TextView"-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:id="@+id/pitchAngle"-->
+    <!--android:layout_marginTop="200dp"-->
+    <!--android:layout_weight="1" />-->
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_weight="1"
+        android:text="@string/left" />
+
+    <!--<TextView-->
+    <!--android:text="TextView"-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:id="@+id/rollAngle"-->
+    <!--android:layout_marginTop="400dp"-->
+    <!--android:layout_weight="1" />-->
+
+    <Button
+        android:id="@+id/forward"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="150dp"
+        android:layout_weight="1"
+        android:text="@string/forward" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="250dp"
+        android:layout_weight="1"
+        android:text="@string/right" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="00dp"
+        android:layout_weight="1"
+        android:text="@string/stop" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="350dp"
+        android:layout_weight="1"
+        android:text="@string/back" />
+
+
+</RelativeLayout>

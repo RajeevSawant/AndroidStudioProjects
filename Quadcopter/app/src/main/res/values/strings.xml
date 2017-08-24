@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quadcopter</string>
+    <string name="forward">FORWARD</string>
+    <string name="back">BACK</string>
+    <string name="left">LEFT</string>
+    <string name="right">RIGHT</string>
+    <string name="stop">STOP</string>
+    <string name="start">START</string>
+
+</resources>
